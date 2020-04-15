@@ -9,20 +9,55 @@
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
-    <!--
+    <header id="header">
+      <div class="logo">
+        <img id="header-img" src="https://res.cloudinary.com/growsurf-prod/image/upload/v1582211139/production/gnysw2objzekbagrqiax.png" alt="Microverse Logo"/>
+      </div>
 
-    Hello Camper!
+      <nav id="nav-bar">
+        <ul>
+          <li><a class="nav-link" href="#register">Register</a></li>
+          <li><a class="nav-link" href="#curriculem">Curriculem</a></li>
+          <li><a class="nav-link" href="#about">About</a></li>
+        </ul>     
+      </nav>
+    </header>
 
-    For now, the test suite only works in Chrome!
-    Please read the README below in the JS Editor before beginning.
-    Feel free to delete this message once you have read it.
-    Good luck and Happy Coding!
-
-    - The freeCodeCamp Team
-
-    -->
-
-    Hello World!
+    <div class="container"></div>
+    <section id="register">
+      <h2>Enter your email to register!</h2>
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <input name="email" id="email" type="email" placeholder="Enter your email address" required />
+        <input id="submit" type="submit" value="Get Started" class="btn" />
+      </form>
+    </section>
+    <section id="curriculem">
+      <div class="container"></div>
+      <div class="grid">
+        <div class="icon"><i class="fa fa-3x fa-fire"></i></div>
+        <div class="desc">
+          <h2>Curriculem</h2>
+          <div>Html</div>
+          <div>JavaScript</div>
+          <div>Java</div>
+          <div>Python</div>
+        </div>
+      </div>
+    </section>
+    <div class="desc">
+      <h2 style="text-align:center">What is microverse?</h2>
+    </div>  
+      <section id="about">
+          <br />
+          <br />
+          <iframe  id="video" width="420" height="345" src="https://www.youtube.com/embed/f9ip1iSAptQ">
+          </iframe>
+      </section>
+      <section></section>
+      <section></section>
+      <section></section>
+  
+  
     <script  src="js/index.js"></script>
   </body>
 </html>
